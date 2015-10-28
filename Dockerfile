@@ -1,7 +1,7 @@
 FROM jboss-eap6-openshift:6.4
 ENV OPENSHIFT_MASTER_URL https://uslv-dpas-mst01:8443
 ENV OPENSHIFT_SERVICE_USER admin
-ENV OPENSHIFT_SERVICE_USER_PASSWORD UPCJP3t5Feb017fdodOKNQ==
+ENV OPENSHIFT_SERVICE_USER_PASSWORD GkDQBvpYPrIiA2Q0K1rh4Q==
 
 COPY resource-management.war $JBOSS_HOME/standalone/deployments/resource-management.war
 
