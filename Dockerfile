@@ -1,4 +1,4 @@
-FROM openshift/jboss-eap6-openshift:6.4
+FROM registry.access.redhat.com/jboss-eap-6/eap-openshift 
 ENV OPENSHIFT_MASTER_URL https://uslv-dpas-mst01.amgen.com:8443
 ENV OPENSHIFT_SERVICE_USER admin
 ENV OPENSHIFT_SERVICE_USER_PASSWORD GkDQBvpYPrIiA2Q0K1rh4Q==
