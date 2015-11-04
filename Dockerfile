@@ -5,6 +5,7 @@ ENV OPENSHIFT_SERVICE_USER admin
 ENV OPENSHIFT_SERVICE_USER_PASSWORD GkDQBvpYPrIiA2Q0K1rh4Q==
 
 COPY resource-management.war $JBOSS_HOME/standalone/deployments/resource-management.war
-COPY eapcontainer-standalone.xml $JBOSS_HOME/standalone/configuration/standalone.xml
+# customized for debug
+COPY standalone-openshift.xml $JBOSS_HOME/standalone/configuration/standalone-openshift.xml
 
 EXPOSE 8080 8888
