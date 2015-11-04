@@ -118,6 +118,9 @@
             <logger category="javax">
                 <level name="INFO"/>
             </logger>
+            <logger category="com.amgen">
+                <level name="DEBUG"/>
+            </logger>
             <root-logger>
                 <level name="DEBUG"/>
                 <handlers>
